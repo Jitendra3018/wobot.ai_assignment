@@ -1,4 +1,6 @@
 import logo from "./assets/wobot-logo_blue.png";
+import Content from "./components/Content";
+
 function App() {
     return (
         <div className="container">
@@ -11,6 +13,8 @@ function App() {
                 <div className="second" />
                 <div className="third" />
             </div>
+
+            <Content />
 
         </div>
     );

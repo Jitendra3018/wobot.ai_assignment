@@ -53,3 +53,146 @@ body {
     float: right;
 }
 
+/* Main Content */
+.content_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 560px;
+    height: 550px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    margin: auto;
+    padding: 40px;
+    left: 440px;
+    top: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 378px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vector {
+    align-self: center;
+}
+
+.des_1,
+.des_2 {
+    width: 378px;
+}
+
+.des_1 > p {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.des_2 > p {
+    font-size: 14px;
+    color: #545454;
+    text-align: center;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 368px;
+}
+
+.com_name,
+.industry,
+.com_size {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.com_name > input,
+.industry > .select > input {
+    width: 100%;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid #ced4da;
+    padding: 10px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.select > img {
+    position: absolute;
+    right: 15px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tag {
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tag:nth-child(3) {
+    background-color: #3766e8;
+    color: white;
+}
+
+.button {
+    width: 368px;
+    margin-top: 10px;
+}
+
+.button > button {
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #3766e8;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
