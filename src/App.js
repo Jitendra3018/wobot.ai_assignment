@@ -16,6 +16,9 @@ function App() {
 
             <Content />
 
+            <div className="privacy">
+                <p>Terms of use | Privacy policy</p>
+            </div>
         </div>
     );
 }
