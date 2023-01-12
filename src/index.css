@@ -7,3 +7,18 @@ body {
     overflow: hidden;
     background-color: #f9f9f9;
 }
+
+.container {
+    position: relative;
+}
+
+/* Company Logo */
+.logo {
+    padding: 60px;
+    position: absolute;
+}
+
+.logo > img {
+    width: 80%;
+}
+
