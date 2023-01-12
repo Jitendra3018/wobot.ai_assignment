@@ -6,6 +6,12 @@ function App() {
                 <img src={logo} alt="Logo" />
             </div>
 
+            <div className="new">
+                <div className="first" />
+                <div className="second" />
+                <div className="third" />
+            </div>
+
         </div>
     );
 }
